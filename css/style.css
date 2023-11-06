@@ -1,0 +1,573 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header Section starts here */
+
+#_header_section{
+    width: 100%;
+    height: 15vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(98deg,rgba(254,247,15,1) 69.5%, rgba(254,255,148,1) 30.5%);
+}
+
+#_header_section article{
+    flex-basis: 95%;
+    height: 100%;
+    /* border: 2px solid black;   */
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;
+}
+
+#_header_section article .left_section{
+    /* border: 2px solid black; */
+    flex-basis: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#_header_section article .left_section a{
+    text-decoration: none;
+}
+
+#_header_section article .left_section a span:first-child{
+    font-size: 40px;
+    color: rgb(54,24,3);
+}
+
+#_header_section article .left_section a span:last-child{
+    font-size: 30px;
+    color: rgb(54,24,3);
+}
+
+#_header_section article .right_section{
+    /* border: 2px solid green; */
+    flex-basis: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+#_header_section article .right_section .nav_top{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 50%;
+    gap: 1%;
+}
+
+#_header_section article .right_section .nav_top:first-child{
+    text-align: end;
+}
+
+#_header_section article .right_section .nav_top:first-child p{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#_header_section article .right_section .nav_top:first-child h1{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#_header_section article .right_section .mobile_icon{
+    font-size: 30px;
+    color: black;
+}
+
+#_header_section article .right_section .nav_bottom{
+    width: 100%;
+    height: 50%;
+    /* border: 2px solid red; */
+}
+
+
+#_header_section article .right_section .nav_bottom ul{
+    display: flex;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    gap: 4%;
+}
+    
+
+#_header_section article .right_section .nav_bottom ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+/* Header Section ends here */
+
+/* Slider  Section starts here */
+
+#slider_section{
+    width: 100%;
+    height: 75vh;
+    background-image: linear-gradient(100deg,rgba(254,247,15,1) 65%, rgba(254,255,148,1) 25%);
+}
+
+#slider_section article{
+    flex-basis: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+#slider_section article .contentBlock{
+    /* border: 2px solid black; */
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    place-items: center;
+    position: relative;
+}
+
+#slider_section article .contentBlock img{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 90px;
+    left: 130px;
+    transform: rotate(180deg);
+}
+
+#slider_section article .contentBlock .are_you_hungry h2{
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    text-transform: capitalize;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+#slider_section article .contentBlock .are_you_hungry h1{
+    font-size: 70px;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+#slider_section article .contentBlock .are_you_hungry p{
+    font-size: 25px;
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#slider_section article .contentBlock .line{
+    height: 0.3%;
+    background-color: rgb(95, 94, 94);
+    width: 58%;
+    margin-top: 25px;
+}
+
+#slider_section article .contentBlock .happy_hours{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 12vh;
+    /* border: 2px solid yellow; */
+    gap: 2%;
+}
+
+#slider_section article .contentBlock .happy_hours h2{
+    font-size: 14px;
+    font-family: 'Fredericka the Great', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+#slider_section article .contentBlock .happy_hours :last-child span{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 40px;
+}
+
+#slider_section article .contentBlock a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #444;
+    font-family: 'Anek Latin', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 15px 10px 20px;
+    border: 2px solid #000;
+    letter-spacing: 1.2px;
+    border-radius: 2px;
+}
+
+#slider_section article .imageBlock{
+    flex-basis: 50%;
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#slider_section article .imageBlock :first-child{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+
+
+#slider_section article .imageBlock :first-child img{
+    /* border: 2px solid green; */
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    bottom: 0px;
+    right: 30%;
+}
+
+#slider_section article .imageBlock :nth-child(2) img{
+    /* border: 2px solid red; */
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    bottom: 25px;
+    left: -30px;
+}
+
+#slider_section article .imageBlock :nth-child(3) img{
+    /* border: 2px solid red; */
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    right: 200px;
+    bottom: 60px;
+}
+
+#slider_section article .imageBlock :last-child img{
+    /* border: 2px solid red; */
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: -20px;
+    top: 10px;
+    transform: rotate(110deg);
+}
+
+/* Slider  Section ends here */
+
+/* Choose and enjoy  Section starts here */
+
+#choose_and_enjoy{
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid black; */
+    position: relative;
+}
+
+#choose_and_enjoy article{
+    width: 85%;
+    height: 95%;
+    margin: 20px auto;
+    /* border: 2px solid red;    */
+}
+
+#choose_and_enjoy article .choose_content_block{
+    text-align: center;
+    /* border: 2px solid yellow; */
+    height: 18vh;
+    margin: 20px auto;
+}
+
+#choose_and_enjoy article .choose_content_block h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: lighter;
+}
+
+#choose_and_enjoy article .choose_content_block p{
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Anek Latin', sans-serif;
+}
+
+#choose_and_enjoy .choose_bg_box{
+    background-color: rgba(254,255,148,1);
+    width: 100%;
+    height: 15vh;
+    position: absolute;
+    top: 40%;
+    display: flex;
+    z-index: -1;
+}
+
+#choose_and_enjoy article main{
+    width: 100%;
+    height: 73vh;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#choose_and_enjoy article main aside{
+    flex-basis: 30%;
+    /* border: 2px solid yellow; */
+}
+
+#choose_and_enjoy article main aside img{
+    width: 100%;
+    /* border: 2px solid green; */
+}
+
+#choose_and_enjoy article main aside footer{
+    text-align: center;
+    height: 18vh;
+    /* border: 2px solid red;   */
+}
+
+#choose_and_enjoy article main aside footer h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Anek Latin', sans-serif;
+    margin-bottom: 10px;
+}
+
+#choose_and_enjoy article main aside footer p{
+    font-size: 16px;
+    margin: 0px auto;
+    width: 80%;
+    font-family: 'Anek Latin', sans-serif;
+    margin-bottom: 25px;
+}
+
+#choose_and_enjoy article main aside footer a{
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Anek Latin', sans-serif;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    background-color: yellow;
+    border-radius: 5px;
+}
+
+/* Choose and enjoy  Section ends here */
+
+/* Discover Section starts here */
+
+#discover_section{
+    width: 100%;
+    height: 80vh;
+    /* border: 2px solid blue; */
+    margin: 25px auto;
+}
+
+#discover_section article .discover_content_Block{
+    width: 100%;
+    height: 18vh;
+    text-align: center;
+    /* border: 2px solid green; */
+}
+
+#discover_section article .discover_content_Block h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Anek Latin', sans-serif;  
+}
+
+#discover_section article .discover_content_Block h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: lighter;
+    padding-bottom: 10px;
+    letter-spacing: 1.5px;
+}
+
+#discover_section article .discover_content_Block p{
+    font-size: 16px;
+    margin: 0px auto;
+    width: 80%;
+    font-family: 'Anek Latin', sans-serif;
+    margin-bottom: 25px;
+    line-height: 20px;
+}
+
+#discover_section article .discover_image_block {
+    display: flex;
+    width: 100%;
+    height: 65vh;
+    /* border: 2px solid red; */
+    align-items: center;
+}
+
+#discover_section article .discover_image_block figure{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#discover_section article .discover_image_block :first-child img {
+    width: 100%;
+    height: 250px;
+}
+
+#discover_section article .discover_image_block :nth-child(2) img {
+    width: 40%;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 2px 2px 15px grey;
+}
+
+#discover_section article .discover_image_block :nth-child(3) img {
+    width: 100%;
+    height: 250px;
+}
+
+/* Discover Section ends here */
+
+/* Try it Today Section starts here */
+
+#try_it_today{
+    width: 100%;
+    height: 70vh;
+    margin: 50px auto;
+}
+
+#try_it_today article{
+    width: 90%;
+    height: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 3%;
+    position: relative;
+}
+
+#try_it_today article .left_image{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#try_it_today article .left_image div {
+    width: 100%;
+    height: 20vh;
+    position: absolute;
+    left: 0%;
+    top: 5%;
+    padding: 15px 0px 15px 25px;
+    color: white;
+}
+
+
+#try_it_today article .left_image img {
+    width: 100%;
+    height: 68vh;
+}
+
+#try_it_today article .left_image :first-child h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+}
+
+#try_it_today article .left_image:first-child h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#try_it_today article .right_image {
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    left: 0%;
+}
+
+#try_it_today article .right_image :first-child div {
+    width: 100%;
+    position: absolute;
+    color: white;
+    top: 5%;
+    left: 5%;
+}
+
+#try_it_today article .right_image :first-child h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 5px;
+}
+
+#try_it_today article .right_image :first-child h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+}
+
+
+#try_it_today article .right_image img {
+    width: 100%;
+}
+
+#try_it_today article .right_image :nth-of-type(2) div {
+    width: 100%;
+    position: absolute;
+    color: white;
+    bottom: 25%;
+    left: 5%;
+}
+
+/* Try it Today Section ends here */
+
+
+
+
+
+
+
+
+
